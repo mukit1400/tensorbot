@@ -1,1 +1,1 @@
-web: gunicorn app:samia-app --log-file -
+web: gunicorn samia-app:app --log-file -
