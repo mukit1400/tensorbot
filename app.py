@@ -33,7 +33,7 @@ def talk():
     for i in range(n_words):
         chain.append(np.random.choice(word_dict[chain[-1]]))
             
-    return("<h1 style:"margin-top:200px, margin-right:20px, margin-left:20px> " + ' '.join(chain) + "</h1>")
+    return("<h1 style:"margin-top:200px; margin-right:20px; margin-left:20px> " + ' '.join(chain) + "</h1>")
 
 if __name__ == '__main__':
     app.run()
