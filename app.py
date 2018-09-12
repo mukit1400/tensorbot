@@ -33,7 +33,7 @@ def talk():
     for i in range(n_words):
         chain.append(np.random.choice(word_dict[chain[-1]]))
             
-    return("</br></br></br><h2> " + ' '.join(chain) + "</h2>")
+    return("</br></br></br></br></br></br><h2> " + ' '.join(chain) + "</h2>")
 
 if __name__ == '__main__':
     app.run()
